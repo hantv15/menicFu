@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .sale-up {
+            background-image: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/bench-accounting-scaled.jpg')
+        }
+
+        .bgh {
+            background-color: #111111;
+        }
+    </style>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="scss/fontawesome.scss">
+    <script src="/js/all.js"></script>
+    <script>
+        const btnMobile = document.querySelector('#btn-mobile');
+
+        btnMobile.addEventListener('click', function () {
+            mainMenu.classList.toggle('hidden');
+        })
+    </script>
+</head>
+
+<body >
+    <header class="">
+        <div class="container mx-auto px-8">
+            <div class="flex justify-between items-center md:hidden">
+                <a href="#">
+                    <img src="/img/1.png" alt="">
+                </a>
+                <button id="btn-mobile">mobile</button>
+            </div>
+            <div class="xl:flex items-center py-5">
+                <a class="hidden xl:block" href="#">
+                    <img src="/img/1.png" class="mx-auto" alt="">
+                </a>
+                <div class="xl:ml-48 xl:flex justify-between w-full">
+                    <nav>
+                        <ul id="main-menu" class="flex justify-center mg:hidden ">
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Home
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Shop
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Pages
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Element
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Blog
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Contact
+                                        </option>
+                                    </select>
+                                </a></li>
+                        </ul>
+                    </nav>
+                    <div class="">
+                        <a href="#"><i class="fas fa-user xl:fa-lg"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart xl:fa-lg"></i></a>
+                        <span>$0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--END, Header-->
+    <section class="" >
+        <div class="grid grid-cols-1 xl:grid-cols-12 xl:gap-5 px-8">
+            <aside class="col-span-3 bg-gray-100">
+                <h2 class="bg-black text-center text-white text-xl uppercase py-4 px-5 rounded-t-md ">
+                    Categories
+                </h2>
+                <ul>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Men</a></li>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Women</a></li>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Electronics</a>
+                    </li>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Jewelry</a></li>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Shoes</a></li>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Kid's Wear</a>
+                    </li>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Sports</a></li>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Toys</a></li>
+                    <li><a class="block px-8 py-4 border-b border-gray-400 hover:bg-gray-300" href="#">Gift Corners</a>
+                    </li>
+                </ul>
+            </aside>
+            <!--END, aside-->
+            <div class="col-span-9">
+                <div class="mb-5">
+                    <form action="">
+                        <div class="flex border border-gray-300 rounded-mb">
+                            <input type="text" class="w-full px-4">
+                            <div class="flex">
+                                <select name="" id="" class=" sm:block hidden px-5 mr-5 border-l border-gray-300">
+                                    <option value="">
+                                        All Categories
+                                    </option>
+                                </select>
+                                <button class="bg-black py-4 px-5 text-white rounded-r-md">
+                                    Search
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <!--END, form-->
+                </div>
+                <!--END, div-->
+                <div class="grid sm:grid-cols-1 sm:grid-cols-2">
+                    <div class="flex justify-center items-center">
+                        <div class="">
+                            <h2 class="text-6xl font-bold">
+                                Spring <span class="bg-black text-white pt-4 pb-2 px-5">Sale</span>
+                            </h2>
+                            <p>New morden</p>
+                            <a class="inline-block border-b border-black text-xl font-bold uppercase mt-12" href="#">
+                                Explore Now
+                            </a>
+                        </div>
+                        <!--END, div-->
+                    </div>
+                    <!--END, div-->
+                    <div class="">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/h8b.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <!--END, div-->
+            </div>
+        </div>
+    </section>
+    <!--END, section-->
+    <section class="container mx-auto mt-5">
+        <!--Banner-->
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-5">
+            <div class="relative ">
+                <a href="#" class="block overflow-hidden">
+                    <img class="transform motion-reduce:transform-none hover:-translate-y-0 hover:scale-110 transition ease-in-out duration-700"
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/10/h82.jpg"
+                        alt="">
+                    <div class="absolute bottom-0 left-0 mb-5 ml-5">
+                        <h2 class="text-xl font-bold uppercase">Womens</h2>
+                        <span class="border-b border-black pb-1">Trending</span>
+                    </div>
+                </a>
+            </div>
+            <!--END, col 1-->
+            <div class="relative">
+                <a href="#" class="block overflow-hidden">
+                    <img class="transform motion-reduce:transform-none hover:-translate-y-0 hover:scale-110 transition ease-in-out duration-700" src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/10/h81.jpg"
+                        alt="">
+                    <div class="absolute bottom-0 left-0 mb-5 ml-5">
+                        <h2 class="text-xl font-bold uppercase">Mens</h2>
+                        <span class="border-b border-black pb-1">Trending</span>
+                    </div>
+                </a>
+            </div>
+            <!--END, col 1-->
+        </div>
+    </section>
+    <!--END, section-->
+    <section class="container mx-auto py-12">
+        <div class="text-center py-5">
+            <h2 class="font-semibold text-3xl">Our Trending Products</h2>
+        </div>
+        <div class="flex justify-center">
+            <nav>
+                <ul class=" flex sm:flex justify-center">
+                    <li class="font-normal text-lg px-4 py-3"><a href="#">All</a></li>
+                    <li class="font-normal text-lg px-4 py-3"><a href="#">Popular</a></li>
+                    <li class="font-normal text-lg px-4 py-3"><a href="#">Sale</a></li>
+                    <li class="font-normal text-lg px-4 py-3"><a href="#">Best Reted</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+        <div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-8">
+                <div class="group relative">
+                    <div class=" overflow-auto flex justify-center items-center sm:motion-safe:hover:animate-spin">
+                        <img class="transform   motion-safe:group-hover:-translate-y-10 motion-safe:hover:scale-300 transition ease-in-out duration-500"
+                            src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_4-360x432.jpg"
+                            alt="" />
+                    </div>
+                    <div
+                        class="transition duration-700 ease-in-out transform translate-y-1 group-hover:-translate-y-10">
+                        <h4 class="mt-3">
+                            <a href="#" class="text-gray-700">Game Controller</a>
+                        </h4>
+                        <span class="mr-3 line-through text-gray-500">$390.00</span>
+                        <span class="text-lg"> $375.00</span>
+                    </div>
+                    <span
+                        class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded">-4%</span>
+                    <div
+                        class=" flex gap-2 absolute bottom-0 transition duration-500 ease-in-out transform translate-y-24 group-hover:translate-y-6 ">
+                        <div class="border w-14 p-3 mt-5 bg-black">
+                            <a href="/"><i class="far fa-heart text-white fa-lg"></i></a>
+                        </div>
+                        <button class="block bg-black w-48 p-3  mt-5 text-white ">
+                            Add to cart
+                        </button>
+                        <div class=" border  w-14 p-3 mt-5  bg-black">
+                            <a href="/"><i class="fas fa-search  text-white fa-lg"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="group relative">
+                    <div class=" overflow-auto flex justify-center items-center sm:motion-safe:hover:animate-spin">
+                        <img class="transform   motion-safe:group-hover:-translate-y-10 motion-safe:hover:scale-300 transition ease-in-out duration-500"
+                            src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_4-360x432.jpg"
+                            alt="" />
+                    </div>
+                    <div
+                        class="transition duration-700 ease-in-out transform translate-y-1 group-hover:-translate-y-10">
+                        <h4 class="mt-3">
+                            <a href="#" class="text-gray-700">Game Controller</a>
+                        </h4>
+                        <span class="mr-3 line-through text-gray-500">$390.00</span>
+                        <span class="text-lg"> $375.00</span>
+                    </div>
+                    <span
+                        class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded">-4%</span>
+                    <div
+                        class=" flex gap-2 absolute bottom-0 transition duration-500 ease-in-out transform translate-y-24 group-hover:translate-y-6 ">
+                        <div class="border w-14 p-3 mt-5 bg-black">
+                            <a href="/"><i class="far fa-heart text-white fa-lg"></i></a>
+                        </div>
+                        <button class="block bg-black w-49 p-3  mt-5 text-white ">
+                            Add to cart
+                        </button>
+                        <div class=" border  w-14 p-3 mt-5  bg-black">
+                            <a href="/"><i class="fas fa-search  text-white fa-lg"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="group relative">
+                    <div class=" overflow-auto flex justify-center items-center sm:motion-safe:hover:animate-spin">
+                        <img class="transform   motion-safe:group-hover:-translate-y-10 motion-safe:hover:scale-300 transition ease-in-out duration-500"
+                            src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_4-360x432.jpg"
+                            alt="" />
+                    </div>
+                    <div
+                        class="transition duration-700 ease-in-out transform translate-y-1 group-hover:-translate-y-10">
+                        <h4 class="mt-3">
+                            <a href="#" class="text-gray-700">Game Controller</a>
+                        </h4>
+                        <span class="mr-3 line-through text-gray-500">$390.00</span>
+                        <span class="text-lg"> $375.00</span>
+                    </div>
+                    <span
+                        class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded">-4%</span>
+                    <div
+                        class=" flex gap-2 absolute bottom-0 transition duration-500 ease-in-out transform translate-y-24 group-hover:translate-y-6 ">
+                        <div class="border w-14 p-3 mt-5 bg-black">
+                            <a href="/"><i class="far fa-heart text-white fa-lg"></i></a>
+                        </div>
+                        <button class="block bg-black w-49 p-3  mt-5 text-white ">
+                            Add to cart
+                        </button>
+                        <div class=" border  w-14 p-3 mt-5  bg-black">
+                            <a href="/"><i class="fas fa-search  text-white fa-lg"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="group relative">
+                    <div class=" overflow-auto flex justify-center items-center sm:motion-safe:hover:animate-spin">
+                        <img class="transform   motion-safe:group-hover:-translate-y-10 motion-safe:hover:scale-300 transition ease-in-out duration-500"
+                            src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_4-360x432.jpg"
+                            alt="" />
+                    </div>
+                    <div
+                        class="transition duration-700 ease-in-out transform translate-y-1 group-hover:-translate-y-10">
+                        <h4 class="mt-3">
+                            <a href="#" class="text-gray-700">Game Controller</a>
+                        </h4>
+                        <span class="mr-3 line-through text-gray-500">$390.00</span>
+                        <span class="text-lg"> $375.00</span>
+                    </div>
+                    <span
+                        class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded">-4%</span>
+                    <div
+                        class=" flex gap-2 absolute bottom-0 transition duration-500 ease-in-out transform translate-y-24 group-hover:translate-y-6 ">
+                        <div class="border w-14 p-3 mt-5 bg-black">
+                            <a href="/"><i class="far fa-heart text-white fa-lg"></i></a>
+                        </div>
+                        <button class="block bg-black w-49 p-3  mt-5 text-white ">
+                            Add to cart
+                        </button>
+                        <div class=" border  w-14 p-3 mt-5  bg-black">
+                            <a href="/"><i class="fas fa-search  text-white fa-lg"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item -->
+                
+            </div>
+        </div>
+    <!--END,section-->
+    <div class="text-center py-5 pt-32">
+        <a href="#" class="border-b border-black pb-1 uppercase">View All Products</a>
+    </div>
+    <section class="sale-up bg-gray-300 py-24 bg-bottom bg-cover bg-fixed bg-no-repeat">
+        <div class="container mx-auto px-10">
+            <div class="w-1/3">
+                <h2 class="text-4xl font-medium">End of Season Clearance Sale upto 30% </h2>
+                <p class="my-5">Stock is limited. Order now to avoid
+                    disappointment.</p>
+                <a href="#" class="bg-white inline-block py-4 px-6 uppercase">Shop now</a>
+            </div>
+        </div>
+    </section>
+    <section class="py-24">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="relative">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/p81.jpg"
+                        alt="" class="ml-auto">
+                    <div class="absolute bottom-0 left-0 w-1/3 mb-6">
+                        <h2 class="text-3xl font-medium">Glamour Long Sweater</h2>
+                        <p class="my-5">The timeless designs jeans </p>
+                        <a href="#" class="border-b border-black pb-1">Shop now</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/p82.jpg"
+                        alt="" class="ml-auto">
+                    <div class="absolute top-0 left-0 w-1/3 ml-16 mt-5">
+                        <h2 class="text-3xl font-medium">Glamour Long Sweater</h2>
+                        <p class="my-5">The timeless designs jeans </p>
+                        <a href="#" class="border-b border-black pb-1">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="text-3xl font-semibold text-center py-5">Inspirational Posts</h2>
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-5">
+            <div class="relative overflow-hidden rounded-md ">
+                <img class="transform motion-reduce:transform-none hover:-translate-y-0 hover:scale-110 transition ease-in-out duration-700"
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/3-465x290.jpg"
+                    alt="">
+                <div
+                    class=" absolute bottom-0 left-0 ml-5 mb-24 w-20 h-20 bg-white text-black rounded-full hover:bg-black hover:text-white">
+                    <p class="block text-center pt-4 font-normal">19</br>
+                    <p class="block text-center font-bold">Aug</p>
+                    </p>
+                </div>
+                <div class="pt-5">
+                    <a href="#">
+                        <p class="">Leather, Lifestyle</p>
+                    </a>
+                    <a href="#" class="">
+                        <p class="pt-3 text-xl font-bold">Minimal Design Inspiration</p>
+                    </a>
+                </div>
+            </div>
+            <div class="relative overflow-hidden rounded-md">
+                <img class="transform motion-reduce:transform-none hover:-translate-y-0 hover:scale-110 transition ease-in-out duration-700"
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/1-465x290.jpg"
+                    alt="">
+                <div
+                    class=" absolute bottom-0 left-0 ml-5 mb-24 w-20 h-20 bg-white text-black rounded-full hover:bg-black hover:text-white">
+                    <p class="block text-center pt-4 font-normal">19</br>
+                    <p class="block text-center font-bold">Aug</p>
+                    </p>
+                </div>
+                <div class="pt-5">
+                    <a href="#">
+                        <p class="">Leather, Lifestyle</p>
+                    </a>
+                    <a href="#" class="">
+                        <p class="pt-3 text-xl font-bold">First Day Sales On Instagram</p>
+                    </a>
+                </div>
+            </div>
+            <div class="relative overflow-hidden rounded-md">
+                <img class="transform motion-reduce:transform-none hover:-translate-y-0 hover:scale-110 transition ease-in-out duration-700"
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/2-465x290.jpg"
+                    alt="">
+                <div
+                    class=" absolute bottom-0 left-0 ml-5 mb-24 w-20 h-20 bg-white text-black rounded-full hover:bg-black hover:text-white">
+                    <p class="block text-center pt-4 font-normal">19</br>
+                    <p class="block text-center font-bold">Aug</p>
+                    </p>
+                </div>
+                <div class=" pt-10 xl:pt-5">
+                    <a href="#">
+                        <p class="">Leather, Lifestyle</p>
+                    </a>
+                    <a href="#" class="">
+                        <p class="pt-3 text-xl font-bold">Habitant morbi tristique senectus</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="grid grid-cols-2 xl:grid-cols-8 mt-24 relative">
+            <a href="#" class="">
+                <img class="w-40 h-40 block"
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56173397_2333889243602027_1382586786035155535_nlow.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <img class="w-40 h-40 block"
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56919342_315602099121014_7632816124131877681_nlow.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <img class="w-40 h-40 block "
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56380334_837224356625987_3345785388063580316_nlow.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <img class="w-40 h-40 block "
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/55776561_135362080921813_4282608881904082123_nlow.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <img class="w-40 h-40 block"
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56770831_1041832976002602_3665736873029157732_nlow.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <img class="w-40 h-40 block"
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56402205_2150515395036509_5313044764177222827_nlow.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <img class="w-40 h-40 block "
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56372284_349144015713992_3306810093832259788_nlow.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <img class="w-40 h-40 block"
+                    src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56331138_673596093074889_3078595201338257675_nlow.jpg"
+                    alt="">
+            </a>
+                <a href="" class="transform rounded-sm hover:bg-black hover:text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 py-2 px-4 bg-white">
+                    <i class="fab fa-instagram"></i> instagram
+                </a>
+    </section>
+    <section class=" flex grid grid-cols-1 xl:grid-cols-12 pt-24 pl-0 pb-24">
+        <div class="col-span-6">
+            <h3 class="text-3xl font-bold">JOIN US & GET A SPECIAL WELCOME GIFT</h3>
+        </div>
+        <input class=" col-span-4 mx-0 bg-gray-200 w-full h-12 rounded-full " type="text"
+            placeholder="    your email address">
+        <div class="col-span-2 pl-5">
+            <button class="w-40  h-12 rounded-full bg-black text-white">Subscribe</button>
+        </div>
+    </section>
+    <section class=" bgh  text-white py-20 pl-20 border-b border-gray-400">
+        <div class="grid flex grid-cols-1 xl:grid-cols-12 gap-1">
+            <div class="col-span-3">
+                <img src="/img/motro_mini.png" alt="">
+                <ul>
+                    <li class="block  py-2">
+                        <i class="fas fa-map-marker-alt  fa-2x"></i>
+                        <span>59 Street, Newyork City, Rose Town, 05 Rive House</span>
+                    </li>
+                    <li class="class=" block py-2">
+                        <i class="fas fa-phone-volume fa-2x"></i>
+                        <span>+123 456 7890</span>
+                    </li>
+                    <li class="block  py-2">
+                        <i class="far fa-envelope fa-2x"></i>
+                        <span>info@example.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-span-3">
+                <h3 class="text-lg font-bold pb-2">
+                    INFORMATION
+                </h3>
+                <div class=" block w-12 h-1 bg-white rounded-full">
+
+                </div>
+                <ul>
+                    <li><a class="block  py-2" href="#">About us</a></li>
+                    <li><a class="block  py-2" href="#">Latest Post</a></li>
+                    <li><a class="block  py-2" href="#">Selling Tips</a></li>
+                    <li><a class="block  py-2" href="#">Advertising</a></li>
+                    <li><a class="block  py-2" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-span-3">
+                <h3 class="text-lg font-bold pb-2">
+                    MY ACCOUNT
+                </h3>
+                <div class=" block w-12 h-1 bg-white rounded-full">
+
+                </div>
+                <ul>
+                    <li><a class="block  py-2" href="#">My Account</a></li>
+                    <li><a class="block  py-2" href="#">Login/Register</a></li>
+                    <li><a class="block  py-2" href="#">Cart</a></li>
+                    <li><a class="block  py-2" href="#">Wishlist</a></li>
+                    <li><a class="block  py-2" href="#">Order History</a></li>
+                </ul>
+            </div>
+            <div class="col-span-3">
+                <h3 class="text-lg font-bold pb-2">
+                    HELP & SUPPORT
+                </h3>
+                <div class=" block w-12 h-1 bg-white rounded-full">
+
+                </div>
+                <ul>
+                    <li><a class="block  py-2" href="#">How To Shop</a></li>
+                    <li><a class="block  py-2" href="#">Payment</a></li>
+                    <li><a class="block  py-2" href="#">Returns</a></li>
+                    <li><a class="block  py-2" href="#">Returns</a></li>
+                    <li><a class="block  py-2" href="#">Privacy & Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="grid grid-cols-12 bgh text-white pl-16 py-16 gap-10">
+        <div class="col-span-5">
+            <span class="text-gray-200">
+                © Copyright Metro 2020. Designed and Developed by
+            </span>
+            <a class="hover:underline" href="#">RadiusTheme
+            </a>
+        </div>
+        <ul class="pl-10 col-span-2 flex gap-5 p-0">
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-pinterest"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fas fa-rss"></i></a></li>
+        </ul>
+        <ul class=" pl-24 col-span-4 flex gap-2">
+            <li class="">
+                <a class="" href="#"><img class=""
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment1.png"
+                        alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment2.png"
+                        alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment3.png"
+                        alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment4.png"
+                        alt=""></a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
